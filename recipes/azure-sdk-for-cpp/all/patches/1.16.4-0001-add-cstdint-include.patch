@@ -1,0 +1,40 @@
+--- a/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/structured_message_helper.hpp
++++ b/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/structured_message_helper.hpp
+@@ -3,6 +3,7 @@
+ 
+ #pragma once
+ 
++#include <cstdint>
+ #include <algorithm>
+ #include <functional>
+ #include <memory>
+--- a/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/structured_message_decoding_stream.hpp
++++ b/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/structured_message_decoding_stream.hpp
+@@ -3,6 +3,7 @@
+ 
+ #pragma once
+ 
++#include <cstdint>
+ #include "azure/storage/common/crypt.hpp"
+ #include "azure/storage/common/dll_import_export.hpp"
+ #include "constants.hpp"
+--- a/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/structured_message_encoding_stream.hpp
++++ b/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/structured_message_encoding_stream.hpp
+@@ -3,6 +3,7 @@
+ 
+ #pragma once
+ 
++#include <cstdint>
+ #include "azure/storage/common/crypt.hpp"
+ #include "azure/storage/common/dll_import_export.hpp"
+ #include "constants.hpp"
+--- a/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/reliable_stream.hpp
++++ b/sdk/storage/azure-storage-common/inc/azure/storage/common/internal/reliable_stream.hpp
+@@ -3,6 +3,7 @@
+ 
+ #pragma once
+ 
++#include <cstdint>
+ #include "azure/storage/common/dll_import_export.hpp"
+ 
+ #include <azure/core/context.hpp>
